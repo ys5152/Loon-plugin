@@ -1,5 +1,5 @@
 #!name=Talkatone
-#!desc=Talkatone 日常使用模块（适配 Loon）
+#!desc=Talkatone Loon分流
 
 [Rule]
 DOMAIN-SUFFIX,aax.amazon-adsystem.com,REJECT
