@@ -1,0 +1,2 @@
+[General]
+dns-server = https://doh.hinet.net/dns-query, https://dns.twnic.tw/dns-query
