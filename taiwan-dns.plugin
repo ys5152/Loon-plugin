@@ -1,4 +1,9 @@
+[Plugin]
+title = 台湾 DNS
+description = HiNet 与 TWINIC 双链自定义 DoH 插件
+author = Pat
+homepage = https://github.com/ys5152
+
 [DNS]
-dns-server = https://doh.hinet.net/dns-query
-dns-fallback = https://101.101.101.101/dns-query
+dns-server = https://doh.hinet.net/dns-query, https://101.101.101.101/dns-query
 dns-policy-group = 台湾手动
