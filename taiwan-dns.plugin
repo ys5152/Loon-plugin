@@ -1,10 +1,10 @@
 [Plugin]
 title = 台湾 DNS
-description = 绑定 HiNet 与 TWNIC DNS 至「台湾手动」策略组，优先用于台湾流媒体解锁。
+description = 绑定 HiNet 与 TWINIC DNS
 author = Pat 自用
-homepage = https://github.com/ys5152/Loon-plugin
+homepage = https://github.com/ys5152
 
 [DNS]
-dns-server = https://doh.hinet.net/dns-query, https://dns.twnic.tw/dns-query
-dns-fallback = https://1.1.1.1/dns-query
+dns-server = https://doh.hinet.net/dns-query
+dns-fallback = https://101.101.101.101/dns-query
 dns-policy-group = 台湾手动
