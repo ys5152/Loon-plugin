@@ -1,7 +1,7 @@
 [Plugin]
 title = 台湾 DNS
-description = 绑定 HiNet 与 TWINIC DNS
-author = Pat 自用
+description = Bind HiNet & TWINIC DoH
+author = Pat
 homepage = https://github.com/ys5152
 
 [DNS]
