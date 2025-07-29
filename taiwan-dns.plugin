@@ -1,5 +1,10 @@
-# 防止 DNS 走系统通道
 [Plugin]
-http-dns-block = type=http-response,behavior=plugin,script-path=https://raw.githubusercontent.com/lxhao61/integrated-script/master/dns/Block_HTTPDNS.plugin,timeout=10
+title = 台湾 DNS
+description = HiNet 与 TWINIC DNS，绑定台湾手动策略组
+author = Pat
+homepage = https://github.com/ys5152
 
-dns-leak-prevent = type=http-response,behavior=plugin,script-path=https://raw.githubusercontent.com/lxhao61/integrated-script/master/dns/Prevent_DNS_Leaks.plugin,timeout=10
+[DNS]
+dns-server = https://doh.hinet.net/dns-query, https://101.101.101.101/dns-query
+dns-fallback = https://1.1.1.1/dns-query, https://8.8.8.8/dns-query
+dns-policy-group = 台湾手动
